@@ -1,0 +1,38 @@
+Sure, I'd be happy to explain this code! It's a budget app that allows users to input their income and expenses, and then calculates their total budget, expenses, and income. It also calculates the percentage of income spent on each expense.
+
+The code is divided into three main modules: the budget controller, the UI controller, and the global controller.
+
+Budget Controller: This module is responsible for managing the budget data. It contains functions for adding items (income or expenses) to the budget, calculating the total budget, expenses, and income, and calculating the percentage of income spent on each expense. It also contains a function for deleting items from the budget.
+
+The budgetController object has the following methods:
+
+addItem: Adds a new item (income or expense) to the budget.
+calculateBudget: Calculates the total budget, expenses, and income.
+calculatePercentages: Calculates the percentage of income spent on each expense.
+getPercentages: Returns an array of the percentages of income spent on each expense.
+testingData: Logs the budget data to the console.
+getBudget: Returns an object containing the budget data.
+deleteItem: Deletes an item from the budget.
+UI Controller: This module is responsible for managing the user interface. It contains functions for getting user input, adding items to the UI, clearing input fields, displaying the budget on the UI, deleting items from the UI, updating the item percentages on the UI, and updating the date on the UI.
+
+The uiController object has the following methods:
+
+getInput: Gets user input from the input fields.
+addlistItem: Adds a new item to the UI.
+getDOMStrings: Returns an object containing the DOM strings.
+clearFeilds: Clears the input fields.
+displayBudget: Displays the budget on the UI.
+deleteListItem: Deletes an item from the UI.
+updateItemPerc: Updates the item percentages on the UI.
+updateDate: Updates the date on the UI.
+changedType: Changes the type of the input fields.
+Global Controller: This module is responsible for setting up event listeners and controlling the flow of the app. It contains a function for setting up event listeners, a function for adding items to the budget and UI, a function for updating the budget, and a function for updating the item percentages.
+
+The appController object has the following methods:
+
+setupEventListeners: Sets up event listeners for the app.
+ctrlAddItem: Adds a new item to the budget and UI.
+updateBudget: Updates the budget.
+updatePercentage: Updates the item percentages.
+init: Initializes the app.
+The app starts with the init method in the appController object, which sets up event listeners and initializes the UI. When the user inputs a new item, the ctrlAddItem method is called, which adds the item to the budget and UI, updates the budget, and updates the item percentages. When the user deletes an item, the ctrlDeleteItem method is called, which deletes the item from the budget and UI, updates the budget, and updates the item percentages.
