@@ -8,7 +8,7 @@
     flex-wrap: wrap;
 }
 body{
-    background-image: url(../Expense-Calculator-Website/images/bg.jpg);
+    /*background-image: url(../Expense-Calculator-Website/images/bg.jpg);*/
     position: relative;
     background-repeat: no-repeat;
     background-attachment: fixed;
