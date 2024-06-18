@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const apiKey = 'f903ad40b6b345c4b4e357fcbb64b350'; // Replace with your actual API key from News API
+    const apiKey = 'f994c637eea34cc8b11c93c7f66ec582'; 
     const baseApiEndpoint = 'https://newsapi.org/v2/everything?q=expenses&apiKey=' + apiKey;
 
     function getApiEndpoint() {
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function displayArticles(articles) {
         const articlesContainer = document.getElementById('articles');
-        articlesContainer.innerHTML = ''; // Clear previous articles
+        articlesContainer.innerHTML = ''; 
 
         articles.forEach(article => {
             const articleElement = document.createElement('div');
