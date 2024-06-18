@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         articles.forEach(article => {
             const articleElement = document.createElement('div');
-            articleElement.classList.add('article');
+            articleElement.classList.add('articles');
 
             articleElement.innerHTML = `
                 <h2>${article.title}</h2>
