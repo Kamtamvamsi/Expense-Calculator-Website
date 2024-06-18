@@ -1,4 +1,6 @@
-
+/*
+  main page css file 
+*/
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +8,7 @@
     flex-wrap: wrap;
 }
 body{
-    background-image: url(../images/bg.jpg);
+    background-image: url(../images/Financial-Services.png);
     position: relative;
     background-repeat: no-repeat;
     background-attachment: fixed;
