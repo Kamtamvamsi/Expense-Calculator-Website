@@ -335,7 +335,7 @@ var uiController = (function() {
           }
             
         });
-
+        
     },
     updateDate:function()
     {
