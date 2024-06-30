@@ -28,12 +28,12 @@ body {
 .red-focus:focus { border: 1px solid #FF5049 !important; }
 
 /**********************************************
-*** TOP PART
+*** TOP PART  linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(back.png);
 **********************************************/
 
 .top {
     height: 40vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(back.png);
+    background-image: url(../images/bg.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -45,7 +45,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #fff;
+    color: #ffffff;
 }
 
 .budget__title {
